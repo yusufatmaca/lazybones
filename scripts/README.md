@@ -6,6 +6,7 @@ This directory contains scripts for preparing and updating the bootable floppy i
 ## Using Disk Image
 ```bash
 ./make_floppy.sh
+```
 
 ### What it does:
   - Attaches `floppy.img` to a loop device
@@ -29,9 +30,7 @@ mount | grep loop
 
 Check loop devices:
 ```sh
-```
 losetup -a
-```
 ```
 
 = = =
